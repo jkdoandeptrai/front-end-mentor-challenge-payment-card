@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    background-color: #E0E8FF;
+    background-image: url("images\\pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+main {
+    width: 290px;
+    border: none;
+    margin: 100px auto 100px auto;
+    text-align: center;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+}
+img {
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+}
+span {
+    font-size: 15px;
+    font-weight: 500;
+}
+#content {
+    position: relative;
+    padding: 20px;
+}
+#content h1 {
+    font-size: 20px;
+}
+.music {
+    width: 50px;
+    height: 50px;
+    margin: 10px auto;
+    position: relative;
+    left: 10px;
+}
+.infor {
+    position: relative;
+    display: flex;
+    height: 70px;
+    background-color: #F6F7FE;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+.infor p {
+    text-align: center;
+}
+.infor a {
+    position: relative;
+    display: inline-block;
+    right: 14px;
+    padding-top: 30px;
+    font-size: 13px;
+    text-decoration: none;
+}
+a:visited {
+    color: blue;
+}
+.btn button {
+    width: 100%;
+    border: none;
+}
+.btn-proceed {
+    margin-bottom: 10px ;
+    padding: 15px;
+    background-color: #3728df;
+    font-weight: 550;
+    color: #E0E8FF;
+    border-radius: 10px;
+    box-shadow: 0 0 10px grey;
+}
+.btn-proceed:hover {
+    opacity: 0.8;
+}
+.btn-cancel {
+    background-color: white;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+    opacity: 0.6;
+}
+.btn-cancel:hover {
+    opacity: 1;
+}
